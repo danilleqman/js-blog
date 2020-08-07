@@ -1,0 +1,15 @@
+$green: #2fd18e;
+$bg:  linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+$white:#fff;
+$darckGrey:#bdbdbd;
+$textPlaceholder:#9e9e9e;
+$black:#000;
+$red:#f44336;
+
+@import "_main.scss";
+@import "_header.scss";
+@import "_navigator.scss";
+@import "_create.scss";
+@import "_loader.scss";
+@import "_posts.scss";
+@import "_favorite.scss";

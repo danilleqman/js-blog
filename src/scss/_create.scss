@@ -1,0 +1,30 @@
+.form-control {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  min-height: 100px;
+  max-width: 600px;
+  min-width: 600px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: $black;
+  background-color: $white;
+  border: 1px solid $darckGrey;
+  border-radius: 5px;
+  &::placeholder {
+    color: $textPlaceholder;
+  }
+
+  &.invalid {
+    border-color: #ef9a9a;
+  }
+}
+
+

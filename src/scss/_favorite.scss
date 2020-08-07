@@ -1,0 +1,15 @@
+.js-link {
+    transition: all 1s;
+    border-bottom: 3px solid transparent;
+    border-radius: 2px;
+
+    &:hover {
+        color: #35b4bd;
+        border-color: #35b4bd;
+
+       padding: 0px 10px 5px 10px;
+    }
+}
+#favorite ul li{
+    margin-bottom: 10px;
+}
